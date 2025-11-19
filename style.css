@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 40px;
+    background: #202a44;
+    color: white;
+}
+
+.header-buttons .btn {
+    margin: 10px;
+}
+
+/* Common Button Style */
+.btn, .btn-small {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0078ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn-small {
+    padding: 6px 14px;
+    font-size: 14px;
+}
+
+/* Sections */
+section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skills-list span {
+    background: #0078ff;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 4px;
+}
+
+/* Projects */
+.project-box {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 6px;
+    border-left: 5px solid #0078ff;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+form input, form textarea {
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+form button {
+    background: #202a44;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    section {
+        width: 95%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
